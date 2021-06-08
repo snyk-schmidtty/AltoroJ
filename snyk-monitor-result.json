@@ -1,0 +1,245 @@
+{
+  "ok": true,
+  "org": "vz-rfp-3s8",
+  "id": "53b20c38-6660-4e85-bfe1-4bb54f66b459",
+  "isMonitored": true,
+  "licensesPolicy": {
+    "severities": {
+      "0BSD": {
+        "licenseType": "0BSD",
+        "severity": "high",
+        "instructions": ""
+      },
+      "Adobe-2006": {
+        "licenseType": "Adobe-2006",
+        "severity": "high",
+        "instructions": ""
+      },
+      "AGPL-1.0": {
+        "licenseType": "AGPL-1.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "AGPL-3.0": {
+        "licenseType": "AGPL-3.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "Artistic-1.0": {
+        "licenseType": "Artistic-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "Artistic-2.0": {
+        "licenseType": "Artistic-2.0",
+        "severity": "high",
+        "instructions": null
+      },
+      "CDDL-1.0": {
+        "licenseType": "CDDL-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "CPOL-1.02": {
+        "licenseType": "CPOL-1.02",
+        "severity": "high",
+        "instructions": ""
+      },
+      "EPL-1.0": {
+        "licenseType": "EPL-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "GPL-2.0": {
+        "licenseType": "GPL-2.0",
+        "severity": "high",
+        "instructions": "Copyleft. Requires any code using this license to be released under the same GPL license."
+      },
+      "GPL-3.0": {
+        "licenseType": "GPL-3.0",
+        "severity": "high",
+        "instructions": "Copyleft. Requires any code using this license to be released under the same GPL license."
+      },
+      "LGPL-2.0": {
+        "licenseType": "LGPL-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "LGPL-2.1": {
+        "licenseType": "LGPL-2.1",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "LGPL-3.0": {
+        "licenseType": "LGPL-3.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MPL-1.1": {
+        "licenseType": "MPL-1.1",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MPL-2.0": {
+        "licenseType": "MPL-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MS-RL": {
+        "licenseType": "MS-RL",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "SimPL-2.0": {
+        "licenseType": "SimPL-2.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "Unknown": {
+        "licenseType": "Unknown",
+        "severity": "low",
+        "instructions": "Unknown license, please review."
+      },
+      "HSQLDB": {
+        "licenseType": "HSQLDB",
+        "severity": "high",
+        "instructions": "non-SPDX license, please contact legal"
+      },
+      "Unspecified-Commercial": {
+        "licenseType": "Unspecified-Commercial",
+        "severity": "low",
+        "instructions": ""
+      },
+      "EDL-1.0": {
+        "licenseType": "EDL-1.0",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Microsoft-Lightswitch-Client-Javascript-Runtime": {
+        "licenseType": "Microsoft-Lightswitch-Client-Javascript-Runtime",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Neodynamic": {
+        "licenseType": "Neodynamic",
+        "severity": "low",
+        "instructions": ""
+      },
+      "bpmn.io": {
+        "licenseType": "bpmn.io",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Froala-Editor": {
+        "licenseType": "Froala-Editor",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Image-Components-SDK": {
+        "licenseType": "Image-Components-SDK",
+        "severity": "low",
+        "instructions": ""
+      },
+      "AppOptics-Java-Agent": {
+        "licenseType": "AppOptics-Java-Agent",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Aspose-EULA": {
+        "licenseType": "Aspose-EULA",
+        "severity": "low",
+        "instructions": ""
+      },
+      "ASPSecurityKit-Khosla-Tech": {
+        "licenseType": "ASPSecurityKit-Khosla-Tech",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Chilkat-Software": {
+        "licenseType": "Chilkat-Software",
+        "severity": "low",
+        "instructions": ""
+      },
+      "H2-Database-1.0": {
+        "licenseType": "H2-Database-1.0",
+        "severity": "low",
+        "instructions": ""
+      },
+      "amCharts-Free": {
+        "licenseType": "amCharts-Free",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Facebook-Platform": {
+        "licenseType": "Facebook-Platform",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Highsoft": {
+        "licenseType": "Highsoft",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Oracle-Technology-Network": {
+        "licenseType": "Oracle-Technology-Network",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Protobuf": {
+        "licenseType": "Protobuf",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Resizer-Freedom": {
+        "licenseType": "Resizer-Freedom",
+        "severity": "low",
+        "instructions": ""
+      },
+      "SpecFlow-EULA": {
+        "licenseType": "SpecFlow-EULA",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Conviva": {
+        "licenseType": "Conviva",
+        "severity": "low",
+        "instructions": ""
+      },
+      "No-License": {
+        "licenseType": "No-License",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Parity-7.0.0": {
+        "licenseType": "Parity-7.0.0",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Dom4J": {
+        "licenseType": "Dom4J",
+        "severity": "low",
+        "instructions": ""
+      },
+      "JTA": {
+        "licenseType": "JTA",
+        "severity": "low",
+        "instructions": ""
+      },
+      "UnboundID-LDAP-SDK-Free": {
+        "licenseType": "UnboundID-LDAP-SDK-Free",
+        "severity": "low",
+        "instructions": ""
+      },
+      "Indiana-University-Extreme-Lab-1.2": {
+        "licenseType": "Indiana-University-Extreme-Lab-1.2",
+        "severity": "low",
+        "instructions": ""
+      }
+    }
+  },
+  "uri": "https://app.snyk.io/org/vz-rfp-3s8/project/8a2ea3c3-cb58-4a1c-bb77-1d7058e0c840/history/2ef09de6-7d2e-4d63-b58d-73cd58e392f2",
+  "path": "/project",
+  "manageUrl": "https://snyk.io/org/vz-rfp-3s8/manage",
+  "packageManager": "gradle",
+  "projectName": "project"
+}
