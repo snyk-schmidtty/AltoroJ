@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "org": "vz-rfp-3s8",
+  "org": "sandbox-797",
   "id": "53b20c38-6660-4e85-bfe1-4bb54f66b459",
   "isMonitored": true,
   "licensesPolicy": {
@@ -237,9 +237,9 @@
       }
     }
   },
-  "uri": "https://app.snyk.io/org/vz-rfp-3s8/project/8a2ea3c3-cb58-4a1c-bb77-1d7058e0c840/history/2ef09de6-7d2e-4d63-b58d-73cd58e392f2",
+  "uri": "https://app.snyk.io/org/sandbox-797/project/8a2ea3c3-cb58-4a1c-bb77-1d7058e0c840/history/630f35f7-c07c-4f41-8148-e4d93fdd072f",
   "path": "/project",
-  "manageUrl": "https://snyk.io/org/vz-rfp-3s8/manage",
+  "manageUrl": "https://snyk.io/org/sandbox-797/manage",
   "packageManager": "gradle",
   "projectName": "project"
 }
