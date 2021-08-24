@@ -46,7 +46,7 @@ public class AdminServlet extends HttpServlet {
 			if (username == null || acctType == null || username.trim().length() == 0 || acctType.trim().length() == 0)
 				message = "An error has occurred. Please try again later.";
 			else {
-				String error = DBUtil.addAccount(username, acctType);
+				String error = null; // DBUtil.addAccount(username, acctType);
 				if (error != null)
 					message = error;
 			}
