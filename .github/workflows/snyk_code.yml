@@ -4,7 +4,7 @@ name: "Snyk Code Scan"
 on:
   push:
     branches:
-    - default
+    - AltoroJ-3.2
 
 jobs:
   Pipeline-Job:
