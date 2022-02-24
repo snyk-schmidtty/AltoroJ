@@ -8,6 +8,20 @@
   <name>TODO app name</name>
   <dependencies>
     
+    <dependency>
+      <groupId>com.github.codingandcoding</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.github.codingandcoding</groupId>
+      <artifactId>mail-watcher-plugin</artifactId>
+      <version>1.16</version>
+      <scope>compile</scope>
+    </dependency>
+    
   </dependencies>
   <build>
     <finalName>MvnWebapp</finalName>
