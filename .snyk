@@ -1,0 +1,8 @@
+version: v1.14.0
+ignore: {}
+patch: {}
+exclude:
+  code:
+    - WebContent/*
+  # global:
+  #   - test/*
