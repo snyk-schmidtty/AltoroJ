@@ -8,6 +8,7 @@
   <name>TODO app name</name>
   <dependencies>
     
+    
     <dependency>
       <groupId>com.github.codingandcoding</groupId>
       <artifactId>maven-compiler-plugin</artifactId>
