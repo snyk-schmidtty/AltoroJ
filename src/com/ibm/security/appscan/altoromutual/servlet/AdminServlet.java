@@ -47,7 +47,7 @@ public class AdminServlet extends HttpServlet {
 				message = "An error has occurred. Please try again later.";
 			else {
 				String error = DBUtil.addAccount(username, acctType);
-				//String error = null;
+				// String error = null;
 				  if (error != null)
 					message = error;
 			}
