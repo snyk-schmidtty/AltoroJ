@@ -1,5 +1,5 @@
 /**
- This application is for demonstration use only. It contains known application security
+This application is for demonstration use only. It contains known application security
 vulnerabilities that were created expressly for demonstrating the functionality of
 application security testing tools. These vulnerabilities may present risks to the
 technical environment in which the application is installed. You must delete and
@@ -46,8 +46,9 @@ public class AdminServlet extends HttpServlet {
 			if (username == null || acctType == null || username.trim().length() == 0 || acctType.trim().length() == 0)
 				message = "An error has occurred. Please try again later.";
 			else {
-				String error = null; // DBUtil.addAccount(username, acctType);
-				if (error != null)
+				String error = DBUtil.addAccount(username, acctType);
+				// String error = null;
+				  if (error != null)
 					message = error;
 			}
 		}
