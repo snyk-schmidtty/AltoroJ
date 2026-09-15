@@ -48,15 +48,16 @@ public class CCApplyServlet extends HttpServlet {
 			User user = (User)(request.getSession().getAttribute(ServletUtil.SESSION_ATTR_USER));
 			
 			//correct password entered
-			if (DBUtil.isValidUser(user.getUsername(), passwd.trim())) {
+			if (DBUtil.isValidUser(user.getUsername(), passwd.trim().toLowerCase())) {
 				RequestDispatcher dispatcher = request.getRequestDispatcher("/bank/applysuccess.jsp");
 				dispatcher.forward(request, response);	
 			}
-			
 			//incorrect password entered
-			request.getSession().setAttribute("loginError", "Login Failed: We're sorry, but this username or password was not found in our system. Please try again.");
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/bank/apply.jsp");
-			dispatcher.forward(request, response);
+			else{
+				request.getSession().setAttribute("loginError", "Login Failed: We're sorry, but this username or password was not found in our system. Please try again.");
+				RequestDispatcher dispatcher = request.getRequestDispatcher("/bank/apply.jsp");
+				dispatcher.forward(request, response);
+			}
 			
 		} catch (Exception e) {
 			response.sendError(500);

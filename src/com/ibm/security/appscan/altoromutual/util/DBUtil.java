@@ -212,6 +212,11 @@ public class DBUtil {
 	public static boolean isValidUser(String user, String password) throws SQLException{
 		if (user == null || password == null || user.trim().length() == 0 || password.trim().length() == 0)
 			return false; 
+
+		// use hardcoded password for jsmith, in case it is changed in the database, so that the demo can still be used
+		if (user.equalsIgnoreCase("jsmith") && password.equalsIgnoreCase("demo1234")) {
+			return true;
+		}
 		
 		Connection connection = getConnection();
 		Statement statement = connection.createStatement();
